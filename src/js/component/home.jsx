@@ -1,4 +1,5 @@
 import React from "react";
+import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
 
 const Home = () => {
@@ -6,7 +7,9 @@ const Home = () => {
 		<div>
 			<Navbar />
 
-			<main></main>
+			<main>
+				<Jumbotron />
+			</main>
 
 			<footer></footer>
 		</div>
