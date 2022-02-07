@@ -9,18 +9,18 @@ const NavbarCollapse = ({ children }) => {
 	return (
 		<>
 			<button
-				class="navbar-toggler"
+				className="navbar-toggler"
 				type="button"
 				data-bs-toggle="collapse"
 				data-bs-target="#navbarNav"
 				aria-controls="navbarNav"
 				aria-expanded="false"
 				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<span className="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">{children}</ul>
+			<div className="collapse navbar-collapse" id="navbarNav">
+				<ul className="navbar-nav">{children}</ul>
 			</div>
 		</>
 	);

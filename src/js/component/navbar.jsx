@@ -3,9 +3,9 @@ import NavbarCollapse from "./navbarCollapse.jsx";
 import NavItem from "./navitem.jsx";
 
 const Navbar = () => (
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-		<div class="nav-container">
-			<a class="navbar-brand" href="#">
+	<nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div className="nav-container">
+			<a className="navbar-brand" href="#">
 				Start Bootstrap
 			</a>
 			<NavbarCollapse>
