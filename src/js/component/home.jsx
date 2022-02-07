@@ -5,6 +5,10 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
+
+			<main></main>
+
+			<footer></footer>
 		</div>
 	);
 };
