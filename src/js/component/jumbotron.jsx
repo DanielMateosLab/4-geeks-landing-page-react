@@ -8,7 +8,7 @@ const Jumbotron = () => (
 			condimentum sed nibh et blandit. Vivamus molestie nisi nec libero
 			gravida, et iaculis nibh hendrerit.
 		</p>
-		<button className="btn btn-primary">Call to action!</button>
+		<button className="btn btn-lg btn-primary">Call to action!</button>
 	</div>
 );
 
