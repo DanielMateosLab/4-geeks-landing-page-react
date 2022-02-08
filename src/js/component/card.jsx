@@ -1,6 +1,11 @@
 import React from "react"
 
-const Card = ({ imgSrc = "https://via.placeholder.com/500x325", title, body, buttonText}) => (
+const Card = ({
+    imgSrc = "https://via.placeholder.com/500x325",
+    buttonText = "Find out more!",
+    title,
+    body,
+}) => (
     <div>
         <img className="card-img-top" src={imgSrc} />
         <div class="card-body">
