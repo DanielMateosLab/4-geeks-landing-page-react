@@ -1,4 +1,5 @@
 import React from "react";
+import CardList from "./cardList.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
 
@@ -9,6 +10,7 @@ const Home = () => {
 
 			<main>
 				<Jumbotron />
+				<CardList />
 			</main>
 
 			<footer></footer>
