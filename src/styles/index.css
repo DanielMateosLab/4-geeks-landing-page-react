@@ -31,7 +31,16 @@ h1 {
     gap: 2rem;
 }
 
-@media (min-width: 992px) {
+footer {
+    color: white;
+    padding: 2rem 0;
+}
+
+footer > p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
     main {
         padding: 2rem 4rem;
     }

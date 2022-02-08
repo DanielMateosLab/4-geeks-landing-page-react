@@ -1,5 +1,6 @@
 import React from "react";
 import CardList from "./cardList.jsx";
+import Footer from "./Footer.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
 
@@ -13,7 +14,7 @@ const Home = () => {
 				<CardList />
 			</main>
 
-			<footer></footer>
+			<Footer />
 		</div>
 	);
 };
