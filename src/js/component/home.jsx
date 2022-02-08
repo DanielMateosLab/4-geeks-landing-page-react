@@ -1,6 +1,6 @@
 import React from "react";
 import CardList from "./cardList.jsx";
-import Footer from "./Footer.jsx";
+import Footer from "./footer.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
 
